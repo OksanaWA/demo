@@ -1,11 +1,11 @@
 {
-  "name": "demo",
+  "name": "yogabloom_sand_penguins",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/demo/",
+    "build": "vite build --base=/yogabloom_sand_penguins/",
     "preview": "vite preview"
   },
   "devDependencies": {
