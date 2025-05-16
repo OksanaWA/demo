@@ -1,0 +1,87 @@
+/*section footer*/
+
+.footer {
+    background-color: var(--color-scheme-1-background);
+    padding: 48px 18px 48px 16px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.footer-first-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-first-logo {
+    font-family: "Sarabun", sans-serif;
+}
+
+.footer-first-paragraf {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.02;
+}
+
+.footer-form {
+
+}
+
+.footer-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    border: 1px solid var(--opacity-transparent);
+    border-radius: 12px;
+    padding: 8px 12px;
+    width: 279px;
+    height: 42px;
+}
+
+.footer-input {
+}
+
+.footer-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-neutral-darkest);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    border: 1px solid var(--opacity-transparent);
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 279px;
+    height: 46px;
+}
+
+.footer-two-paragraf {}
+
+.footer-three-paragraf {}
+
+.footer-two-container {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 12px;
+}
+
+.footer-container-paragraf {}
+
+.footer-list {}
+
+.footer-team {}
+
+/*media section footer*/
