@@ -8,7 +8,8 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 48px;
-    padding: 64px 16px;    
+    padding: 64px 16px;
+        
 }
 
 .team-description {
@@ -44,8 +45,44 @@ text-align: center;
 color: #0d0b0a;
 }
 
+.team-list {
+  gap: 48px;
+  
+}
 
+.team-member {
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 343px;
+}
 
+.team-member-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-top: 20px;
+}
+
+.team-member-job {font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+color: #0d0b0a;
+margin-bottom: 12px;
+}
+
+.team-member-text {font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+
+}
 
 
 @media screen and (min-width: 768px) {}
