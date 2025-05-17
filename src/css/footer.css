@@ -74,11 +74,13 @@
 /*section footer*/
 
 .footer {
-    padding: 48px 16px;
-    width: 375px
+    padding: 48px 0;
+    background: var(--color-scheme-1-background);
 }
 
 .footer-container {
+    border-radius: 16px;
+    background: var(--color-scheme-1-foreground);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -86,6 +88,7 @@
 }
 
 .footer-first-container {
+    margin: 32px 32px 0 32px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -105,14 +108,19 @@
     color: var(--color-scheme-1-text);
 }
 
+.footer-three-paragraf {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--color-scheme-1-text);
+    margin-top: 24px;
+}
+
 .footer-form {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 16px;
-}
-
-.footer-label {
-    
 }
 
 .footer-input {
@@ -130,13 +138,24 @@
 }
 
 .footer-two-paragraf {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--color-scheme-1-text);
     margin-top: 12px;
 }
 
-.footer-three-paragraf {}
+.footer-three-paragraf {
+    margin-bottom: 32px;
+    width: 275px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--color-scheme-1-text);
+}
 
 .footer-two-container {
-    width: 320px;
+    width: 275px;
 }
 
 .footer-container-paragraf {
@@ -147,7 +166,9 @@
     color: var(--color-scheme-1-text);
 }
 
-.footer-list {}
+.footer-three-paragraf-end {
+    display: none;
+}
 
 .footer-team {
     margin-bottom: 8px;
@@ -157,4 +178,64 @@
     color: var(--color-scheme-1-text);
 }
 
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 12px;
+}
+
 /*media section footer*/
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        width: 704px;
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-first-container {
+        display: flex;
+        align-items: first baseline;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer-icon-logo {
+        margin-bottom: 24px;
+    }
+
+    .footer-first-paragraf {
+        margin-bottom: 24px;
+    }
+
+    .footer-form {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .footer-input {
+        border: 1px solid var(--opacity-transparent);
+        border-radius: 12px;
+        width: 546px;
+    }
+
+    .footer-button {
+        border: 1px solid var(--opacity-transparent);
+        border-radius: 100px;
+        width: 78px;
+    }
+
+    .footer-two-container {
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1158px) {
+
+}
