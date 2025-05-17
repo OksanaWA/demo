@@ -1,3 +1,130 @@
 .about {
-  background-color: palegoldenrod;
+    width: 375px;
+    height: auto;
+    background: #dfebeb;
+}
+
+.about-title {
+  padding-top: 64px;
+  margin-bottom: 20px;
+   font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    text-transform: capitalize;
+}
+
+.about-text {
+  margin-bottom: 48px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.about-title-com {
+  margin-bottom: 24px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.about-text-com {
+  margin-bottom: 48px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.about-button {
+  border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 343px;
+    height: 46px;
+    background: #c2d9fc;
+  font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+    display: block;
+    margin-bottom: 64px;
+    margin: 0 16px 64px 16px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .about {
+      width: 768px;
+      height: auto;
+      background: #f2fafa;
+  }
+      .about-title {
+        padding-top: 80px;
+        margin-bottom: 24px;
+      font-size: 40px;
+    }
+    .about-text {
+      margin-bottom: 40px;
+      font-size: 18px;
+    }
+        .about-title-com {
+          font-size: 24px;
+        }
+                .about-list {
+                  display: block;
+                  display: flex;
+                  gap: 24px;
+                  flex-wrap: wrap;
+                }
+                .about-item {
+                  width: calc((100% - 24px) / 2);
+                }
+}
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+.about {
+    width: 1440px;
+    height: auto;
+    background: #f2fafa;
+}
+.about-title {
+    margin-bottom: 24px;
+    font-size: 52px;
+}
+.about-text {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.about-title-com {
+  margin-bottom: 24px;
+    font-size: 28px;
+}
+.about-list {
+  display: block;
+    display: flex;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
 }
