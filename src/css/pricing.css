@@ -172,6 +172,15 @@
   background: #c2d9fc;
 }
 
+.pricing-btn:hover {
+  background-color: rgba(13, 11, 10, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.pricing-btn:active {
+  background-color: transparent;
+}
+
 @media screen and (min-width: 768px) {
   .pricing-btn {
     width: 320px;
