@@ -97,6 +97,17 @@ margin-bottom: 12px;
   margin-top: 20px
 }
 
+.team-networks-item {
+  fill: #0d0b0a;
+  cursor: pointer;
+}
+
+.team-networks-item:hover {
+  height: 32px;
+  width: 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team-networks-icon-last {box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
  }
 
