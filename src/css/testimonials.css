@@ -20,23 +20,54 @@
 /* head */
 
 .testimonials-cont {
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .testimonials-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
 
 }
 
 .testimonials-title-two {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
 
 }
 
 @media screen and (min-width: 768px) {
+    .testimonials-cont {
+        gap: 16px;
+    }
+    .testimonials-title {
+        font-size: 40px;
+    }
+    .testimonials-title-two {
 
+    }
 }
 
 @media screen and (min-width: 1336px) {
+    .testimonials-title {
+        font-size: 52px;
+    }
 
+    .testimonials-title-two {
+        
+    }
 }
 
 
@@ -47,15 +78,35 @@
 }
 
 .testimonials-list {
-
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
 }
 
 .testimonials-item {
 
 }
 
-.testimonials-quote {
+.testimonials-column {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 24px;
+    padding: 12px;
+    width: 343px;
+    height: 496px;
+    background: #dfebeb;
+}
 
+.testimonials-quote {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
 }
 
 .testimonials-avatar {
@@ -67,11 +118,21 @@
 }
 
 .testimonials-text-one {
-
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
 }
 
 .testimonials-text-two {
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d0b0a;
 }
 
 @media screen and (min-width: 768px) {
@@ -79,5 +140,9 @@
 }
 
 @media screen and (min-width: 1336px) {
-
+    .testimonials-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;   
+    }
 }
