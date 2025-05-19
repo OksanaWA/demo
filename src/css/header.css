@@ -304,20 +304,29 @@
 
 .modal,
 .modal-65,
-.modal-65 {
+.modal-80 {
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   width: 375px;
   min-height: 720px;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: var(--color-scheme-1-background);
+  /* з fallback */
   border-radius: 4px;
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 64px 16px 112px 16px;
 }
 
+.modal.active,
+.modal-65.active,
+.modal-80.active {
+  display: block;
+}
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
@@ -397,7 +406,8 @@
 @media screen and (min-width: 768px) and (max-width: 1335px) {
 
   .modal,
-  .modal-65 {
+  .modal-65,
+  .modal-80 {
     width: 573px;
     min-height: 704px;
   }
@@ -415,18 +425,49 @@
     width: 100%;
   }
 
-  /* Ділимо простір порівну */
   .mob-wrap .lable_modal {
     flex: 1;
   }
 
-  /* Забираємо фіксовану ширину */
   .mob-wrap .form-input {
     width: 100%;
   }
 
-  /* Ім'я залишається з фіксованою шириною */
   .modal-box>.lable_modal .form-input {
     width: 343px;
+  }
+}
+@media screen and (min-width: 1336px) {
+
+  .modal,
+  .modal-65,
+  .modal-80 {
+    width: 768px;
+    min-height: 573px;
+  }
+
+  .modal-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .modal-box>.lable_modal:first-child .form-input {
+    width: 100%;
+  }
+
+  .mob-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .mob-wrap .lable_modal {
+    flex: 1;
+  }
+
+  .mob-wrap .form-input {
+    width: 100%;
   }
 }
