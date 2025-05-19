@@ -82,6 +82,10 @@
     row-gap: 32px;
 }
 
+.testimonials-div {
+    margin-bottom: 24px;
+}
+
 .testimonials-item {
 
 }
@@ -142,9 +146,14 @@
 }
 
 @media screen and (min-width: 1336px) {
+    .testimonials-item {
+        width: calc((100% - 640px) / 2);
+    }
+    
     .testimonials-column {
         width: 644px;
         height: 321px;
+
     }
 
     .testimonials-list {
