@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1158px;
+        max-width: 1312px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -184,7 +184,9 @@
 }
 
 .footer-two-container-wrap {
-    display: contents;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .footer-two-container {
@@ -207,12 +209,17 @@
     color: var(--color-scheme-1-text);
 }
 
+.footer-team-list {
+    color: var(--color-scheme-1-text);
+}
+
 .footer-item {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     gap: 12px;
+    color: var(--color-scheme-1-text);
 }
 
 /*media section footer*/
@@ -220,17 +227,11 @@
 @media screen and (min-width: 768px) {
     .footer-container {
         width: 704px;
-        display: flex;
         align-items: baseline;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 40px;
     }
 
     .footer-first-container {
-        display: flex;
         align-items: first baseline;
-        justify-content: flex-start;
         flex-direction: column;
         gap: 24px;
     }
@@ -261,18 +262,13 @@
     }
 
     .footer-two-container-wrap {
-        display: flex;
-        gap: 40px;
-    }
-
-    .footer-three-paragraf-list {
+        flex-direction: row;
     }
 }
 
 /* Desktop */
 @media screen and (min-width: 1158px) {
     .footer-container {
-        max-width: 100%;
         width: 1312px;
         flex-direction: row;
     }
@@ -284,11 +280,20 @@
     }
 
     .footer-two-container-wrap {
+        flex-direction: row;
         width: 371px;
         margin: 48px 48px 48px 275px;
     }
 
     .footer-three-paragraf {
         display: none;
+    }
+
+    .footer-input {
+        width: 476px;
+    }
+
+    .footer-button {
+        width: 78px;
     }
 }
