@@ -25,6 +25,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 24px;
 }
 
 .testimonials-title {
@@ -66,7 +67,7 @@
     }
 
     .testimonials-title-two {
-        
+
     }
 }
 
@@ -78,8 +79,6 @@
 }
 
 .testimonials-list {
-    display: flex;
-    flex-direction: column;
     row-gap: 32px;
 }
 
@@ -136,10 +135,18 @@
 }
 
 @media screen and (min-width: 768px) {
-
+    .testimonials-column {
+        width: 704px;
+        height: 356px;
+    }
 }
 
 @media screen and (min-width: 1336px) {
+    .testimonials-column {
+        width: 644px;
+        height: 321px;
+    }
+
     .testimonials-list {
         flex-direction: row;
         flex-wrap: wrap;
