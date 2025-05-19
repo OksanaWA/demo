@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
     .container {
         max-width: 1312px;
         padding-left: 15px;
@@ -289,7 +289,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
     .footer {
         padding: 64px 0;
     }
