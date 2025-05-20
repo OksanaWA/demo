@@ -8,7 +8,8 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 48px;
-    padding: 64px 16px;
+    padding-top: 64px;
+    padding-bottom: 64px;
     max-width: 375px;
     margin: 0 auto;
         
@@ -176,15 +177,11 @@ margin-bottom: 12px;
       align-items: center;
       justify-content: center;
       max-width: 1440px;
-      padding: 112px 64px;
+      padding-top: 112px;
+      padding-bottom: 112px;
     }
 
-  /* .team-section img {
-      width: 421px;
-      height: 410px;
-      object-fit: cover;
-        } */
-         
+  
   .team-section img {
       width: 100%;
       aspect-ratio: 421 / 410;
