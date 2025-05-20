@@ -4,7 +4,6 @@
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
-
 }
 @media screen and (min-width: 768px) {
   .gallery {
@@ -17,12 +16,10 @@
   }
 }
 .gallery_wrap {
-
   width: 100%;
   padding: 0 16px;
   margin: 0 auto;
   box-sizing: border-box;
-
 }
 @media screen and (min-width: 768px) {
   .gallery_wrap {
