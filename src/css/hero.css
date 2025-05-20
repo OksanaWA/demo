@@ -1,3 +1,138 @@
-.hero {
-  background-color: rebeccapurple;
+.container-hero {
+  width: 100%;
+  padding: 48px 0;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.section-hero {
+  padding: 48px 0;
+  position: relative;
+}
+
+.img-section-hero {
+  background: var(--color-hawkes-blue);
+  border-radius: 4px;
+   background-size: cover;
+}
+.hero-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--color-scheme-3-text);
+  margin-bottom: 20px;
+  text-align: left;
+}
+.txt-hero {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-scheme-3-text);
+  margin-bottom: 24px;
+  text-align: left;
+}
+.btn-join_burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  border: 1px solid var(--color-hawkes-blue);
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 329px;
+  height: 46px;
+  background: var(--color-hawkes-blue);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-neutral-darkest);
+}
+.btn-learn_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--opacity-transparent);
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 329px;
+  height: 46px;
+  background: var(--opacity-neutral-darkest-5);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--color-neutral-darkest);
+}
+@media screen and (min-width: 768px) {
+  .section-hero {
+    padding: 24px 0;
+    position: relative;
+  }
+  .container-hero {
+    width:100%;
+  }
+  .img-section-hero {
+    margin-bottom: 24px;
+  }
+  .hero-title {
+    margin-bottom: 8px;
+  }
+  .txt-hero {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+  .hero-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .btn-join_burger {
+    width: 144px;
+    height: 46px;
+    margin: 0;
+  }
+  .btn-learn_more {
+    width: 144px;
+    height: 46px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .section-hero {
+    padding: 80px 0;
+    position: relative;
+  }
+  .container-hero {
+    width: 100%;
+  }
+  .hero-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .hero-title {
+    flex: 1 1 45%;
+    font-size: 72px;
+  }
+  .hero-content {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .hero-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .hero-list li a {
+    display: inline-block;
+  }
 }
