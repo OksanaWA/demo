@@ -112,7 +112,6 @@
 
 .footer-first-container {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -154,6 +153,7 @@
 }
 
 .footer-input {
+    padding-left: 12px;
     border: 1xp solid var(--opacity-transparent);
     border-radius: 12px;
     width: 279px;
