@@ -87,30 +87,40 @@
 }
 
 .yoga-list {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-  margin-bottom: 48px;
+display: flex;
+flex-direction: column;
+gap: 48px;
+margin-bottom: 48px;
+
+
+
 }
 
 @media screen and (min-width: 768px) {
   .yoga-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-bottom: 40px;
-  }
+
+flex-direction: row;
+ flex-wrap: wrap;
+ gap: 24px;
+ margin-bottom: 40px;
+
+}
 }
 
 @media screen and (min-width: 1136px) {
   .yoga-list {
-    display: flex;
-    width: 1312px;
-    margin-bottom: 40px;
-    gap: 24px;
-  }
+
+ display: flex;
+ width: 1312px;
+ margin-bottom: 40px;
+ gap: 24px;
+ margin-left: auto;
+margin-right: auto;
 }
+}
+
+
 
 .yoga-list-item {
   max-width: 100%;
