@@ -1,5 +1,7 @@
 .team-section {
   background-color: #f2fafa;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .team-section-container {
@@ -19,8 +21,8 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  width: 343px;
-  height: 156px;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .team-meet {
@@ -48,6 +50,13 @@
   line-height: 1.6;
   text-align: center;
   color: #0d0b0a;
+  margin-bottom: 48px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .team-member {
@@ -97,8 +106,8 @@
 .team-networks-list {
   display: flex;
   gap: 14px;
-  margin-bottom: 48px;
   margin-top: 20px;
+  margin-bottom: 48px;
 }
 
 .team-networks-item {
@@ -131,6 +140,7 @@
 
   .team-list {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
