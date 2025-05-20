@@ -4,3 +4,8 @@ body {
   font-style: normal;
   background-color: #ffffff;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
