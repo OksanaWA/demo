@@ -2,18 +2,18 @@
 
 .pricing {
   background: #f2fafa;
-  padding: 64px 16px;
+  padding: 64px 0;
 }
 
 @media screen and (min-width: 768px) {
   .pricing {
-    padding: 40px 32px;
+    padding: 40px 0;
   }
 }
 
 @media screen and (min-width: 1336px) {
   .pricing {
-    padding: 112px 64px;
+    padding: 112px 0;
   }
 }
 
@@ -82,26 +82,23 @@
 }
 
 .pricing-item {
-
+  
 }
 
 
 /* list */
 
 .container-price {
-  border: 0px solid rgba(13, 11, 10, 0.15);
-  border-radius: 16px;
-  padding: 32px 24px;
   display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    border: 0px solid rgba(13, 11, 10, 0.15);
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 0px solid rgba(13, 11, 10, 0.15);
+  padding: 32px 0;
+  margin-bottom: 32px;
+  max-width: 421px;
+  background: #dfebeb;
     border-radius: 16px;
-    padding: 32px 24px;
-    background: #dfebeb;
-    margin-bottom: 32px;
-
 }
 
 .pricing-heading {
@@ -130,8 +127,7 @@
   
 }
 
-.pricing-check {
-}
+
 
 .pricing-text-two {
   font-weight: 400;
@@ -149,15 +145,41 @@
       gap: 24px;
       
     }
+
+    .pricing-item-one {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 24px;
+    }
+
+    .pricing-item-two {
+
+    }
+    .pricing-item-three {
+      margin-left: 220px;
+      
+      }
   
     .container-price {
       padding: 32px;
-      flex: 1 1 calc((100% - 32px) / 2);
+      flex: 1 1 calc((100% - 24px) / 2);
     }
     
         .container-price:last-child {
-          flex: 1 1 100%;  
+          
          }
+    
+    .container-price-two {
+      min-width: 790px;
+      display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .pricing-head {
+
+    }
+    
 
     .pricing-heading {
       font-size: 22px;
@@ -173,13 +195,18 @@
 @media screen and (min-width: 1336px) {
   .container-pricing-three {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-wrap: nowrap;
+    gap: 24px;
   }
   .container-price {
-   
-    
+    flex: none;
+    width: 100%;
   }
+
+    .container-price-two {
+      display: flex;
+      
+    }
 
   .pricing-list {
     
@@ -194,8 +221,8 @@
 .pricing-btn {
   border: 1px solid #c2d9fc;
   border-radius: 100px;
-  padding: 10px 24px;
-  width: 271px;
+  padding: 10px 0;
+  width: 230px;
   height: 46px;
   background: #c2d9fc;
   margin-top: 24px;
