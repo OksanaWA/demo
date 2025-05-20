@@ -53,6 +53,7 @@
   line-height: 1.6;
   text-align: center;
   color: #0d0b0a;
+  margin-bottom: 48px;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,11 +74,7 @@
 /* menu */
 
 .container-pricing-three {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 24px;
+  
 }
 
 .pricing-menu {
@@ -95,8 +92,16 @@
   border: 0px solid rgba(13, 11, 10, 0.15);
   border-radius: 16px;
   padding: 32px 24px;
-  width: 343px;
-  height: 378px;
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px 24px;
+    background: #dfebeb;
+    margin-bottom: 32px;
+
 }
 
 .pricing-heading {
@@ -115,14 +120,17 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: #0d0b0a;
+  margin-top: 8px;
+  margin-bottom: 24px;
 }
 
 .pricing-list {
-  padding: 8px 0px;
+  display: flex;
+  flex-direction: row;
+  
 }
 
 .pricing-check {
-
 }
 
 .pricing-text-two {
@@ -130,13 +138,22 @@
   font-size: 16px;
   line-height: 1.6;
   color: #0d0b0a;
+  margin-left: 16px;
+  margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .container-price {
-      padding: 16px;
-      width: 340px;
-      height: 383px;
+  .container-pricing-three {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+  
+    .container-price {
+      padding: 32px;
+      flex: 1 1 calc(33.333% - 16px);
+  
     }
   
     .pricing-heading {
@@ -151,10 +168,20 @@
 }
 
 @media screen and (min-width: 1336px) {
+  .container-pricing-three {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
   .container-price {
     padding: 32px;
-    width: 421px;
-    height: 509px;
+    flex: 1 1 calc(33.333% - 16px);
+    
+  }
+
+  .pricing-list {
+    gap: 32px;
   }
 
 }
@@ -167,9 +194,10 @@
   border: 1px solid #c2d9fc;
   border-radius: 100px;
   padding: 10px 24px;
-  width: 295px;
+  width: 271px;
   height: 46px;
   background: #c2d9fc;
+  margin-top: 24px;
 }
 
 .pricing-btn:hover {
