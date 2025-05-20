@@ -139,11 +139,9 @@
 
 @media screen and (min-width: 1336px) {
     .testimonials-item {
-        flex: 1 1 calc((100% - 32px) / 2);
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 24px;
     }
 
     .testimonials-column {

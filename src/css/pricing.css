@@ -145,17 +145,20 @@
 @media screen and (min-width: 768px) {
   .container-pricing-three {
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
       gap: 24px;
+      
     }
   
     .container-price {
       padding: 32px;
-      flex: 1 1 calc(33.333% - 16px);
-  
+      flex: 1 1 calc((100% - 32px) / 2);
     }
-  
+    
+        .container-price:last-child {
+          flex: 1 1 100%;  
+         }
+
     .pricing-heading {
       font-size: 22px;
     }
@@ -170,18 +173,16 @@
 @media screen and (min-width: 1336px) {
   .container-pricing-three {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
   }
   .container-price {
-    padding: 32px;
-    flex: 1 1 calc(33.333% - 16px);
+   
     
   }
 
   .pricing-list {
-    gap: 32px;
+    
   }
 
 }
