@@ -1,5 +1,7 @@
 .team-section {
   background-color: #f2fafa;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .team-section-container {
@@ -7,22 +9,21 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 48px;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    /* gap: 48px; */
+    
     max-width: 375px;
     margin: 0 auto;
         
 }
 
-.team-description {
+/* .team-description {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  width: 343px;
-  height: 156px;
-}
+  max-width: 343px;
+  
+} */
 
 .team-meet {font-weight: 600;
 font-size: 16px;
@@ -46,6 +47,11 @@ font-size: 16px;
 line-height: 1.6;
 text-align: center;
 color: #0d0b0a;
+margin-bottom: 48px;
+}
+
+.team-list {
+  gap: 48px;
 }
 
 .team-member {
@@ -88,13 +94,11 @@ margin-bottom: 12px;
 
 }
 
-.team-member-text-last {text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);}
-
 
 .team-networks-list {
   display: flex;
   gap: 14px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
   margin-top: 20px
 }
 
