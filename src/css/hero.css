@@ -15,7 +15,7 @@ a {
 }
 
 .container-hero {
-  width: 320px;
+  max-width: 320px;
   padding: 48px 0;
   margin: 0 auto;
   max-width: 100%;
@@ -94,7 +94,7 @@ a {
   }
 
   .container-hero {
-    width: 768px;
+    max-width: 768px;
   }
 
   .img-section-hero {
@@ -137,7 +137,7 @@ a {
   }
 
   .container-hero {
-    width: 1336px;
+    max-width: 1336px;
   }
 
   .hero-layout {
