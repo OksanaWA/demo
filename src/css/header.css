@@ -15,7 +15,7 @@
   justify-content: space-around;
   align-items: center;
   position: relative;
-  width: 375px;
+  max-width: 375px;
 }
 .nav-header-list{
   display: none;
@@ -23,7 +23,7 @@
 .btn-burger {
   display: block;
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 16px;
   padding: 0;
   border: none;
@@ -51,7 +51,7 @@
   align-items: center;
   border: 1px solid var(--color-hawkes-blue);
   border-radius: 100px;
-  width: 86px;
+  min-width: 86px;
   height: 34px;
   background: var(--color-hawkes-blue);
   font-family: var(--font-family);
@@ -173,7 +173,7 @@
     border: 1px solid var(--color-hawkes-blue);
       border-radius: 100px;
       padding: 10px 24px;
-      width: 343px;
+      max-width: 250px;
       height: 46px;
     background: var(--color-hawkes-blue);
     font-family: var(--font-family);
@@ -184,7 +184,7 @@
 }
 @media screen and (min-width: 768px) {
   .page-header-container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -209,7 +209,7 @@
         color: var(--color-neutral-darkest);
     }
     .burger-menu-container {
-      width: 748px;
+      max-width: 748px;
     }
     .nav-burger-list>.btn-join_burger {
       display: none;
@@ -228,7 +228,7 @@
   }
 
   .page-header-container {
-    width: 1312px;
+    max-width: 1312px;
     justify-content: space-around;
   }
   .link-nav-heder {
@@ -309,7 +309,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 375px;
+  max-width: 375px;
   min-height: 720px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -384,7 +384,7 @@
   border: 1px solid var(--opacity-transparent);
   border-radius: 12px;
   padding: 8px 12px;
-  width: 343px;
+  width: max-343px;
   height: 42px;
   background: var(--opacity-neutral-darkest-5);
 }
@@ -408,7 +408,7 @@
   .modal,
   .modal-65,
   .modal-80 {
-    width: 573px;
+    max-width: 573px;
     min-height: 704px;
   }
 
@@ -434,15 +434,15 @@
   }
 
   .modal-box>.lable_modal .form-input {
-    width: 343px;
+    max-width: 343px;
   }
 }
 @media screen and (min-width: 1336px) {
 
   .modal,
-  .modal-65,
+  .modal-65,git
   .modal-80 {
-    width: 768px;
+    max-width: 768px;
     min-height: 573px;
   }
 
