@@ -25,6 +25,7 @@
   margin-bottom: 48px;
   min-width: 320px;
   max-width: 343px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -91,6 +92,7 @@
   flex-direction: column;
   gap: 48px;
   margin-bottom: 48px;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -101,17 +103,19 @@
     flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 40px;
+    justify-content: center;
   }
 }
 
-@media screen and (min-width: 1136px) {
+@media screen and (min-width: 1336px) {
   .yoga-list {
     display: flex;
-    width: 1312px;
     margin-bottom: 40px;
     gap: 24px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
   }
 }
 
