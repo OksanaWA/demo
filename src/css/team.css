@@ -6,13 +6,12 @@
 
 .team-section-container {
   display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    /* gap: 48px; */
-    
-    max-width: 375px;
-    margin: 0 auto;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+     
+  max-width: 375px;
+  margin: 0 auto;
         
 }
 
@@ -93,7 +92,6 @@ margin-bottom: 12px;
 .team-networks-list {
   display: flex;
   gap: 14px;
-  /* margin-bottom: 48px; */
   margin-top: 20px
 }
 
@@ -131,6 +129,7 @@ margin-bottom: 12px;
 
   .team-list {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
