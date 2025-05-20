@@ -87,40 +87,33 @@
 }
 
 .yoga-list {
-display: flex;
-flex-direction: column;
-gap: 48px;
-margin-bottom: 48px;
-
-
-
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 48px;
 }
 
 @media screen and (min-width: 768px) {
   .yoga-list {
     display: flex;
 
-flex-direction: row;
- flex-wrap: wrap;
- gap: 24px;
- margin-bottom: 40px;
-
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1136px) {
   .yoga-list {
-
- display: flex;
- width: 1312px;
- margin-bottom: 40px;
- gap: 24px;
- margin-left: auto;
-margin-right: auto;
+    display: flex;
+    width: 1312px;
+    margin-bottom: 40px;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-}
-
-
 
 .yoga-list-item {
   max-width: 100%;
@@ -276,21 +269,12 @@ margin-right: auto;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 343px;
-}
-
-.join-btn::after {
-  content: 'Join';
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .join-btn {
     width: 110px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .join-btn::after {
-    content: 'Join now';
   }
 }
 
