@@ -1,3 +1,4 @@
+
 .pricing {
   background: #f2fafa;
   padding: 64px 16px;
@@ -26,16 +27,16 @@
 }
 
 .pricing-wrap {
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #0d0b0a;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d0b0a;
 }
 
 .pricing-title {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
@@ -45,7 +46,7 @@
 }
 
 .pricing-text {
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -58,16 +59,17 @@
   .container-pricing-two {
     gap: 16px;
   }
-
+  
   .pricing-text {
     font-size: 18px;
-  }
+  }  
 }
 
 @media screen and (min-width: 1336px) {
+  
 }
 
-/* menu */
+
 
 /* list */
 
@@ -76,14 +78,15 @@
   border-radius: 16px;
   padding: 32px 24px;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  border: 0px solid rgba(13, 11, 10, 0.15);
-  border-radius: 16px;
-  padding: 32px 24px;
-  background: #dfebeb;
-  margin-bottom: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px 24px;
+    background: #dfebeb;
+    margin-bottom: 32px;
+
 }
 
 .pricing-heading {
@@ -109,6 +112,10 @@
 .pricing-list {
   display: flex;
   flex-direction: row;
+  
+}
+
+.pricing-check {
 }
 
 .pricing-text-two {
@@ -122,12 +129,52 @@
 
 @media screen and (min-width: 768px) {
   .container-pricing-three {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      
+    }
+  
+    .container-price {
+      padding: 32px;
+      flex: 1 1 calc((100% - 32px) / 2);
+    }
+    
+        .container-price:last-child {
+          flex: 1 1 100%;  
+         }
+
+    .pricing-heading {
+      font-size: 22px;
+    }
+
+  
+    .pricing-price {
+      font-size: 72px;
+    }
+  
 }
+
+@media screen and (min-width: 1336px) {
+  .container-pricing-three {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .container-price {
+   
+    
+  }
+
+  .pricing-list {
+    
+  }
+
+}
+
 /* btn */
+
+.pricing-actions {}
 
 .pricing-btn {
   border: 1px solid #c2d9fc;
@@ -161,3 +208,5 @@
     height: 46px;
   }
 }
+=======
+
