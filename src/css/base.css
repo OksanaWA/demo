@@ -1,0 +1,11 @@
+body {
+  font-family: 'Sarabun', sans-serif;
+  color: #0d0b0a;
+  font-style: normal;
+  background-color: #ffffff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
