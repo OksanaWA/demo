@@ -1,0 +1,318 @@
+.container-mob {
+  min-width: 320px;
+  max-width: 100%;
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-mob {
+    padding: 40px 32px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .container-mob {
+    padding: 112px 64px;
+  }
+}
+
+.yoga-classes {
+  background-color: #f2f7fe;
+}
+
+.text-block {
+  margin-bottom: 48px;
+  min-width: 320px;
+  max-width: 343px;
+}
+
+@media screen and (min-width: 768px) {
+  .text-block {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .text-block {
+    margin: 0 auto;
+    max-width: 768px;
+    margin-bottom: 40px;
+  }
+}
+
+.explore {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 12px;
+}
+
+.yoga-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+  min-width: 320px;
+  max-width: 343px;
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-title {
+    margin-bottom: 24px;
+    max-width: 704px;
+  }
+}
+
+.yoga-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-text {
+    font-size: 18px;
+  }
+}
+
+.yoga-list {
+display: flex;
+flex-direction: column;
+gap: 48px;
+margin-bottom: 48px;
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-list {
+    display: flex;
+
+flex-direction: row;
+ flex-wrap: wrap;
+ gap: 24px;
+ margin-bottom: 40px;
+
+}
+}
+
+@media screen and (min-width: 1136px) {
+  .yoga-list {
+
+ display: flex;
+ width: 1312px;
+ margin-bottom: 40px;
+ gap: 24px;
+ margin-left: auto;
+margin-right: auto;
+}
+}
+
+
+
+.yoga-list-item {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-list-item {
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .yoga-list-item {
+    max-width: 421px;
+  }
+}
+
+.yoga-img {
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-img {
+    margin-bottom: 16px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .yoga-img {
+    width: 421px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .full {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .full {
+    width: 421px;
+  }
+}
+
+.last-item {
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .last-item {
+    width: 712px;
+    height: 282px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .last-item {
+    margin-bottom: 32px;
+    width: 421px;
+    height: 240px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-yoga-type {
+    margin: 0 auto;
+  }
+}
+
+.yoga-type-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 24px;
+  min-width: 320px;
+  max-width: 343px;
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-type-title {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .yoga-type-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    width: 421px;
+  }
+}
+
+.text::after {
+  content: 'Beginner Yoga: Foundations for New Practitioners';
+}
+
+@media screen and (min-width: 768px) {
+  .text::after {
+    content: 'Beginner Yoga: Foundations';
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-type-title {
+    max-width: 704px;
+  }
+}
+
+.yoga-type-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  min-width: 320px;
+  max-width: 343px;
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-type-text {
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .yoga-type-text {
+    max-width: 421px;
+  }
+}
+
+.join-btn {
+  display: block;
+  margin: 0 auto;
+  height: 46px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0d0b0a;
+  background-color: #c2d9fc;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 343px;
+}
+
+.join-btn::after {
+  content: 'Join';
+}
+
+@media screen and (min-width: 768px) {
+  .join-btn {
+    width: 110px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .join-btn::after {
+    content: 'Join now';
+  }
+}
+
+.join-btn:hover {
+  background-color: rgba(13, 11, 10, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.join-btn:active {
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .join-btn:hover::after {
+    background-color: rgba(13, 11, 10, 0.005);
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .join-btn:active {
+    background-color: transparent;
+  }
+}
