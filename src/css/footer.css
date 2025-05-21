@@ -63,6 +63,10 @@
   height: 42px;
 }
 
+.footer-input:focus {
+  --color-neutral-dark: #555453;
+}
+
 .footer-button {
   border: 1px solid var(--opacity-transparent);
   border-radius: 100px;
@@ -110,7 +114,6 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 12px;
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
