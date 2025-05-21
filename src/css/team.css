@@ -9,8 +9,6 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-     
-  max-width: 375px;
   margin: 0 auto;
         
 }
@@ -38,7 +36,7 @@ font-size: 16px;
 line-height: 1.6;
 text-align: center;
 color: #0d0b0a;
-margin-bottom: 48px;
+/* margin-bottom: 48px; */
 }
 
 .team-list {
@@ -53,6 +51,7 @@ margin-bottom: 48px;
     justify-content: flex-start;
     flex-direction: column;
     max-width: 343px;
+   
     
 }
 
@@ -141,9 +140,7 @@ margin-bottom: 12px;
       box-shadow: none
     }
 
-    .team-member-text-last {
-       text-shadow: none
-        }
+    
 
 
     .team-member-picture-last {
