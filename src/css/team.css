@@ -154,20 +154,6 @@
   }
 }
 
-.team-member-text-last {
-  text-shadow: none;
-}
-
-.team-member-picture-last {
-  box-shadow: none;
-}
-
-.team-section img {
-  width: 340px;
-  height: 395px;
-  object-fit: cover;
-}
-
 @media screen and (min-width: 1336px) {
   .team-list {
     gap: 67px 24px;
