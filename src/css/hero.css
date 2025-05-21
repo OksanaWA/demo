@@ -1,22 +1,10 @@
-
-button {
-  cursor: pointer;
-  ;
-}
-
-a {
-  text-decoration: none;
-}
-
 .container-hero {
   max-width: 320px;
-  padding: 48px 0;
   margin: 0 auto;
   max-width: 100%;
 }
 
 .section-hero {
-  padding: 48px 0;
   position: relative;
 }
 
@@ -46,7 +34,7 @@ a {
   text-align: left;
 }
 
-.btn-join_burger {
+.btn-join_burger-hero {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +71,6 @@ a {
 
 @media screen and (min-width: 768px) {
   .section-hero {
-    padding: 24px 0;
     position: relative;
   }
 
@@ -111,7 +98,7 @@ a {
     gap: 16px;
   }
 
-  .btn-join_burger {
+  .btn-join_burger-hero {
     width: 144px;
     height: 46px;
     margin: 0;
@@ -121,12 +108,10 @@ a {
     width: 144px;
     height: 46px;
   }
-
 }
 
 @media screen and (min-width: 1336px) {
   .section-hero {
-    padding: 80px 0;
     position: relative;
   }
 
@@ -166,4 +151,3 @@ a {
     display: inline-block;
   }
 }
-
