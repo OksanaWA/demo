@@ -1,3 +1,119 @@
 .pricing {
-  background-color: violet;
+  background: #f2fafa;
+  padding: 64px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .pricing {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .pricing {
+    padding: 112px 0;
+  }
+}
+
+.container-pricing-two {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pricing-wrap {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.pricing-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.pricing-text {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-pricing-two {
+    gap: 16px;
+  }
+
+  .pricing-text {
+    font-size: 18px;
+  }
+}
+.pricing-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
+}
+.pricing-item {
+  border: 0px solid var(--color-scheme-2-border);
+  border-radius: 16px;
+  padding: 16px;
+  max-width: 340px;
+  background-color: var(--color-scheme-2-foreground);
+}
+.price-wrap {
+}
+.pricing-heading {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--color-scheme-2-text);
+}
+
+.pricing-price {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--color-scheme-2-text);
+}
+.container-price {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .container-price {
+    gap: 24px;
+    row-gap: 64px;
+  }
+  .pricing-menu {
+    gap: 24px;
+    row-gap: 64px;
+  }
+  .pricing-item {
+    max-width: calc((100% - 24px) / 2);
+  }
+  .price-wrap-two {
+    max-width: calc((100% - 24px) / 2);
+  }
 }
