@@ -1,22 +1,17 @@
-
-button {
-  cursor: pointer;
-  ;
+.img-section-hero {
+  background-color:var(--color-hawkes-blue);
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
-a {
-  text-decoration: none;
-}
-
 .container-hero {
   max-width: 320px;
-  padding: 48px 0;
+  padding: 0 16px;
   margin: 0 auto;
-  max-width: 100%;
 }
 
 .section-hero {
-  padding: 48px 0;
+  padding: 0 0 48px 0;
   position: relative;
 }
 
@@ -54,7 +49,7 @@ a {
   border: 1px solid var(--color-hawkes-blue);
   border-radius: 100px;
   padding: 10px 24px;
-  width: 329px;
+  max-width: 329px;
   height: 46px;
   background: var(--color-hawkes-blue);
   font-family: var(--font-family);
@@ -71,7 +66,7 @@ a {
   border: 1px solid var(--opacity-transparent);
   border-radius: 100px;
   padding: 10px 24px;
-  width: 329px;
+  max-width: 329px;
   height: 46px;
   background: var(--opacity-neutral-darkest-5);
   font-family: var(--font-family);
@@ -112,13 +107,15 @@ a {
   }
 
   .btn-join_burger {
-    width: 144px;
+    max-width: 144px;
+    width: 100%;
     height: 46px;
     margin: 0;
   }
 
   .btn-learn_more {
-    width: 144px;
+    max-width: 144px;
+    width: 100%;
     height: 46px;
   }
 

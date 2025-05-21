@@ -118,6 +118,8 @@
 }
 
 .icon-close {
+  width: 24px;
+  height: 24px;
   fill: var(--color-scheme-1-text);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 50%;
@@ -217,7 +219,7 @@
     align-items: center;
     border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
-    width: 105px;
+    max-width: 105px;
     height: 42px;
     background: var(--color-hawkes-blue);
     font-family: var(--font-family);
@@ -304,7 +306,7 @@
 
   .nav-header-list>.btn-join_now {
     padding: 8px 20px;
-    width: 105px;
+    max-width: 105px;
     height: 42px;
   }
 }
@@ -339,7 +341,7 @@
 .modal,
 .modal-65,
 .modal-80 {
-  display: none;
+  /* display: none; */
   position: absolute;
   top: 50%;
   left: 50%;
