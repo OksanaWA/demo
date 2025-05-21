@@ -71,7 +71,7 @@
   border: 0px solid var(--color-scheme-2-border);
   border-radius: 16px;
   padding: 16px;
-  max-width: 340px;
+  max-width: 288px;
   background-color: var(--color-scheme-2-foreground);
 }
 .price-wrap {
@@ -101,14 +101,43 @@
   gap: 32px;
   justify-content: center;
 }
+
+.pricing-list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.pricing-actions {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.pricing-btn {
+  border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    width: 295px;
+    height: 46px;
+    background: #c2d9fc;
+}
+
+.pricing-btn:hover {
+  background-color: rgba(13, 11, 10, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.pricing-btn:active {
+  background-color: transparent;
+}
+
 @media screen and (min-width: 768px) {
   .container-price {
     gap: 24px;
-    row-gap: 64px;
   }
   .pricing-menu {
     gap: 24px;
-    row-gap: 64px;
+    
   }
   .pricing-item {
     max-width: calc((100% - 24px) / 2);
@@ -116,4 +145,49 @@
   .price-wrap-two {
     max-width: calc((100% - 24px) / 2);
   }
+
+    .pricing-two-items {
+      min-width: 704px;
+    }
+  
+    .container-price-two {
+      min-width: 704px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+  .pricing-menu {
+    flex-wrap: nowrap;
+  }
+
+    .pricing-item {
+      max-width: calc((100% - 24px) / 2);
+    }
+  
+    .price-wrap-two {
+      max-width: max-content;
+    }
+    
+    .pricing-actions {
+      display: flex;
+      justify-content: center;
+    }
+
+    .pricing-actions-two {
+      
+    }
+
+        .pricing-two-items {
+          min-width: 295px;
+        }
+    
+        .container-price-two {
+          min-width: 295px;
+          
+        }
+        
+        .pricing-btn-two {
+
+        }
+    
 }
