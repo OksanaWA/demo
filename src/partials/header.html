@@ -59,142 +59,111 @@
         <a href="#" class="btn-join_now">Join Now</a>
       </div>
 
-      <nav class="nav-burger">
-        <ul class="nav-burger-list">
-          <li>
-            <a class="burger-nav-link" href="#mainpage-section-classes"
-              >Yoga Classes</a
-            >
-          </li>
-          <li>
-            <a class="burger-nav-link" href="#mainpage-section-team">Team</a>
-          </li>
-          <li>
-            <a class="burger-nav-link" href="#mainpage-section-testimonials"
-              >Testimonials</a
-            >
-          </li>
-          <li>
-            <a class="burger-nav-link" href="#mainpage-section-pricing"
-              >Pricing</a
-            >
-          </li>
-          <li>
-            <a class="burger-nav-link" href="#mainpage-section-contacts"
-              >Contacts</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <a href="#mainpage-section-pricing" class="btn-join">Join</a>
-      <a href="#" class="btn-join_burger">Join</a>
+
+    <div class="burger-menu" data-menu>
+        <div class="burger-menu-container">
+            <div class="burger-menu-header">
+                <button class="close_button burger-menu-close" type="button" data-close-btn>
+                    <svg class="icon-close" width="11" height="11">
+                        <use href="/img/icons/icons.svg#icon-x"></use>
+                    </svg>
+                </button>
+                <svg class="icon-logo" width="83" height="23">
+                    <use href="/img/icons/icons.svg#icon-logo"></use>
+                </svg>
+                <a href="#" class="btn-join">Join</a>
+                <a href="#" class="btn-join_now">Join Now</a>
+            </div>
+
+            <nav class="nav-burger">
+                <ul class="nav-burger-list">
+                    <li><a class="burger-nav-link" href="#">Yoga Classes</a></li>
+                    <li><a class="burger-nav-link" href="#">Team</a></li>
+                    <li><a class="burger-nav-link" href="#">Testimonials</a></li>
+                    <li><a class="burger-nav-link" href="#">Pricing</a></li>
+                    <li><a class="burger-nav-link" href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn-join">Join</a>
+            <a href="#" class="btn-join_burger">Join</a>
+        </div>
+
     </div>
   </div>
 </header>
 
 <!-- Modal $10 -->
 <div class="backdrop" data-backdrop>
-  <!-- is-open -->
-  <div class="modal" data-modal-open>
-    <button class="close_button" type="button" data-modal-close>
-      <svg class="icon-close" width="8" height="8">
-        <use href="/images/icons.svg#icon-close"></use>
-      </svg>
-    </button>
-    <h4 class="title-modal">Join Now!</h4>
-    <p class="modal-txt">One Session</p>
-    <h5 class="price">$10</h5>
-    <form class="form" name="user_form_ten" autocomplete="off">
-      <div class="modal-box">
-        <label class="lable_modal" for="user-name">
-          Your Name
-          <input
-            class="form-input"
-            type="text"
-            id="user-name"
-            name="user-name"
-            placeholder="Liam"
-            autofocus
-          />
-        </label>
-        <div class="mob-wrap">
-          <label class="lable_modal" for="user-email-ten">
-            Email
-            <input
-              class="form-input"
-              type="email"
-              id="user-email"
-              name="user-email"
-              placeholder="hello@yogabloom.com"
-            />
-          </label>
-          <label class="lable_modal" for="user_phone-ten">
-            Phone number
-            <input
-              class="form-input"
-              type="tel"
-              id="user_phone-ten"
-              name="user_phone"
-              placeholder="+380 (95) 123 12 12"
-              required
-            />
-          </label>
-        </div>
-        <button type="submit" class="btn_go_to_checkout">Go to checkout</button>
-      </div>
-    </form>
-  </div>
+
+    <!-- is-open -->
+    <div class="modal" data-modal-open>
+        <button class="close_button" type="button" data-modal-close>
+            <svg class="icon-close" width="11" height="11">
+                <use href="/img/icons/icons.svg#icon-x"></use>
+            </svg>
+        </button>
+        <h4 class="title-modal">Join Now!</h4>
+        <p class="modal-txt">One Session</p>
+        <h5 class="price">$10</h5>
+        <form class="form" name="user_form_ten" autocomplete="off">
+            <div class="modal-box">
+                <label class="lable_modal" for="user-name">
+                    Your Name
+                    <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Liam" autofocus>
+                </label>
+                <div class="mob-wrap">
+                    <label class="lable_modal" for="user-email-ten">
+                        Email
+                        <input class="form-input" type="email" id="user-email" name="user-email"
+                            placeholder="hello@yogabloom.com">
+                    </label>
+                    <label class="lable_modal" for="user_phone-ten">
+                        Phone number
+                        <input class="form-input" type="tel" id="user_phone-ten" name="user_phone"
+                            placeholder="+380 (95) 123 12 12" required>
+                    </label>
+                </div>
+                <button type="submit" class="btn_go_to_checkout">Go to checkout</button>
+            </div>
+        </form>
+    </div>
+
 </div>
 
 <!-- Modal $65 -->
 <div class="backdrop" data-backdrop-sixty-five>
-  <div class="modal-sixty-five" data-modal-open>
-    <button class="close_button" type="button" data-modal-close>
-      <svg class="icon-close" width="8" height="8">
-        <use href="/images/icons.svg#icon-close"></use>
-      </svg>
-    </button>
-    <h4 class="title-modal">Join Now!</h4>
-    <p class="modal-txt">One Session</p>
-    <h5 class="price">$65</h5>
-    <form class="form" name="user_form_sixty-five" autocomplete="off">
-      <div class="modal-box">
-        <label class="lable_modal" for="user-name-sixty-five">
-          Your Name
-          <input
-            class="form-input"
-            type="text"
-            id="user-name-sixty-five"
-            name="user-name"
-            placeholder="Liam"
-            autofocus
-          />
-        </label>
-        <div class="mob-wrap">
-          <label class="lable_modal" for="user-email-sixty-five">
-            Email
-            <input
-              class="form-input"
-              type="email"
-              id="user-email-sixty-five"
-              name="user-email"
-              placeholder="hello@yogabloom.com"
-            />
-          </label>
-          <label class="lable_modal" for="user_phone-sixty-five">
-            Phone number
-            <input
-              class="form-input"
-              type="tel"
-              id="user_phone-sixty-five"
-              name="user_phone"
-              placeholder="+380 (95) 123 12 12"
-              required
-            />
-          </label>
-        </div>
-        <button type="submit" class="btn_go_to_checkout">Go to checkout</button>
-      </div>
-    </form>
-  </div>
+
+    <div class="modal-sixty-five" data-modal-open>
+        <button class="close_button" type="button" data-modal-close>
+            <svg class="icon-close" width="11" height="11">
+                <use href="/img/icons/icons.svg#icon-x"></use>
+            </svg>
+        </button>
+        <h4 class="title-modal">Join Now!</h4>
+        <p class="modal-txt">One Session</p>
+        <h5 class="price">$65</h5>
+        <form class="form" name="user_form_sixty-five" autocomplete="off">
+            <div class="modal-box">
+                <label class="lable_modal" for="user-name-sixty-five">
+                    Your Name
+                    <input class="form-input" type="text" id="user-name-sixty-five" name="user-name" placeholder="Liam"
+                        autofocus>
+                </label>
+                <div class="mob-wrap">
+                    <label class="lable_modal" for="user-email-sixty-five">
+                        Email
+                        <input class="form-input" type="email" id="user-email-sixty-five" name="user-email"
+                            placeholder="hello@yogabloom.com">
+                    </label>
+                    <label class="lable_modal" for="user_phone-sixty-five">
+                        Phone number
+                        <input class="form-input" type="tel" id="user_phone-sixty-five" name="user_phone"
+                            placeholder="+380 (95) 123 12 12" required>
+                    </label>
+                </div>
+                <button type="submit" class="btn_go_to_checkout">Go to checkout</button>
+            </div>
+        </form>
+    </div>
 </div>
+

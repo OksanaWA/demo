@@ -118,6 +118,8 @@
 }
 
 .icon-close {
+  width:24px;
+  height: 24px;
   fill: var(--color-scheme-1-text);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 50%;
