@@ -1,17 +1,17 @@
 .pricing {
   background: #f2fafa;
-  padding: 64px 16px;
+  padding: 64px 0;
 }
 
 @media screen and (min-width: 768px) {
   .pricing {
-    padding: 40px 32px;
+    padding: 40px 0;
   }
 }
 
 @media screen and (min-width: 1336px) {
   .pricing {
-    padding: 112px 64px;
+    padding: 112px 0;
   }
 }
 
@@ -61,24 +61,22 @@
 
   .pricing-text {
     font-size: 18px;
-  }
+  }  
 }
 
 /* list */
 
 .container-price {
-  border: 0px solid rgba(13, 11, 10, 0.15);
-  border-radius: 16px;
-  padding: 32px 24px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   border: 0px solid rgba(13, 11, 10, 0.15);
-  border-radius: 16px;
-  padding: 32px 24px;
-  background: #dfebeb;
+  padding: 32px;
   margin-bottom: 32px;
+  max-width: 421px;
+  background: #dfebeb;
+  border-radius: 16px;
 }
 
 .pricing-heading {
@@ -122,13 +120,26 @@
     gap: 24px;
   }
 
-  .container-price {
-    padding: 32px;
-    flex: 1 1 calc((100% - 32px) / 2);
+  .pricing-item-one {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
   }
 
-  .container-price:last-child {
-    flex: 1 1 100%;
+  .pricing-item-three {
+    margin-left: 220px;
+  }
+
+  .container-price {
+    padding: 32px;
+    flex: 1 1 calc((100% - 24px) / 2);
+  }
+
+  .container-price-two {
+    min-width: 790px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .pricing-heading {
@@ -153,8 +164,8 @@
 .pricing-btn {
   border: 1px solid #c2d9fc;
   border-radius: 100px;
-  padding: 10px 24px;
-  width: 271px;
+  padding: 10px 0;
+  width: 230px;
   height: 46px;
   background: #c2d9fc;
   margin-top: 24px;
