@@ -74,9 +74,7 @@
   max-width: 288px;
   background-color: var(--color-scheme-2-foreground);
 }
-.pricing-item-two {
-  min-width: 704px;
-}
+
 .pricing-heading {
   font-family: var(--second-family);
   font-weight: 400;
@@ -141,6 +139,9 @@
   }
   .pricing-item {
     max-width: calc((100% - 24px) / 2);
+  }
+  .pricing-item-two {
+    min-width: 704px;
   }
   .price-wrap-two {
     max-width: calc((100% - 24px) / 2);
