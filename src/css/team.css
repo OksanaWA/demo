@@ -166,12 +166,16 @@ margin-bottom: 12px;
   
     }
 
+    .team-section {
+      padding-top: 112px;
+      padding-bottom: 112px;
+    }
+
   .team-section-container {
       align-items: center;
       justify-content: center;
-      max-width: 1440px;
-      padding-top: 112px;
-      padding-bottom: 112px;
+      max-width: 1336px;
+      
     }
 
     
